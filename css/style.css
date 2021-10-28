@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    background-image: url(https://image.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1410.jpg);
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px grey;
+    background-color:rgb(247, 247, 247) ;
+}
+header img{
+    width: 100%;
+    height: 150px;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#contenido {
+    width: 78%;
+    float: right;
+    padding: 0 1% 1% 1%;
+    
+}
+footer {
+    background-color: rgb(1, 0, 59);
+    color: rgba(0, 255, 255, 0.74);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li{
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    list-style-type: none;
+    text-align: center;
+    
+    color: rgb(23, 4, 105);
+    font-size: 22px;
+    border: solid 1px rgb(23, 4, 105);
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+nav ul li:hover{
+    color: cornflowerblue;
+    background-color: rgb(23, 4, 105);
+}
+a{
+    text-decoration: none;
+}
+.text-azulo{
+    color: navy;
+    font-size: 18px;
+}
+#home{
+    text-align: center;
+}
+.titulo{
+    color: navy;
+    text-align: center
+
+}
+.etiqueta{
+    color: crimson;
+    font-size: 34px;
+
+}
+.text-derecha{
+    text-align: right;
+}
+#tablas {
+    text-align: center;
+}
+#tablas table {
+    width: 80%;
+    margin: 0 auto;
+}
+#tdefault th{
+    background-color: rgb(1, 0, 59);
+    color: cyan;
+    font-size: 28px;
+}
+#tdefault td{
+    background-color:cyan;
+    color: rgb(1, 0, 59);
+    font-size: 18px;
+}
+#tcombi th{
+    background-color: rgb(63, 167, 22);
+    color: yellow;
+    font-size: 28px;
+}
+#tcombi td{
+    background-color:yellow;
+    color:  rgb(63, 167, 22);
+    font-size: 18px;
+}
+#tcombi th{
+    background-color: rgb(63, 167, 22);
+    color: yellow;
+    font-size: 28px;
+}
+#tcombi td{
+    background-color:yellow;
+    color:  rgb(63, 167, 22);
+    font-size: 18px;
+}
+#tparimpar tr:nth-child(odd){
+    background-color: khaki;
+}
+#tparimpar tr:nth-child(even){
+    background-color: rgb(255, 196, 225);
+}
+#tparimpar th{
+    background-color:rgb(90, 0, 71) ;
+    color: rgb(243, 255, 174);
+    font-size: 28px;
+}
+#thorario th{
+    color: #009c87;
+} 
+.thorariotitulo{
+    font-size: 23px;
+} 
+.fol{
+    background-color: #FFD22E;
+} 
+.entornos{
+    background-color: #8080C0;
+}
+.sisi{
+    background-color: #C9A0C8;
+}
+.ing{
+    background-color: #EFEFC9;
+}
+.prog{
+    background-color: #98DB94;
+}
+.bdd{
+    background-color: #81FF81;
+}
+.lmsg{
+    background-color: #FE8081;
+}
+#customd li {
+    list-style-type: square;
+}
+#customd li li{
+    list-style-type: disc;
+}
+#customd li li li{
+    list-style-type: circle;
+}
+#customo li {
+    list-style-type: upper-latin;
+}
+#customo li li{
+    list-style-image: url(../img/corazon16.png);
+}
+#customo li li li{
+    list-style-type: lower-roman;
+    list-style-image: none;
+}
+#fregistro{
+    width: 40%;
+}
+#fgrande{
+    width: 60%;
+}
+#multimedia{
+    text-align: center;
+}
